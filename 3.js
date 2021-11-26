@@ -1,4 +1,4 @@
 function objects() {
-    const obj = '';
-    obj.prototype = null;
+    const emptyObj = Object.create(null)
+    return emptyObj;
 }
