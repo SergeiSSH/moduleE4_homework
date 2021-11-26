@@ -36,10 +36,10 @@ Appliance.prototype.getPrice = function () {
 }
 
 PC.prototype.getNominal = function () {
-    return `Описание компьютера: ${this.CPU}/RAM ${this.RAM}/SSD ${this.ssd}/GPU ${this.GPU}`;
+    return `Описание компьютера: ${this.CPU}; RAM ${this.RAM}; SSD ${this.ssd}; GPU ${this.GPU}`;
 }
 Lamp.prototype.getNominal = function () {
-    return `Описание лампы: ${this.type}, color: ${this.color}`;
+    return `Описание лампы: ${this.type}; color: ${this.color}`;
 }
 
 Appliance.prototype.On = function () {
